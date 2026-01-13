@@ -449,35 +449,34 @@ VITE_APP_NAME=Admin Dashboard
 
 | Feature | Status | Notes |
 |---------|--------|-------|
-| API Documentation | ⏳ Pending | Swagger/Postman docs belum dibuat |
-| Deployment | ⏳ Pending | Perlu di-deploy ke server publik |
-| Integration Tests | ⏳ Pending | Hanya unit tests yang ada |
-| Email Integration | ⏳ Pending | forgot/reset password butuh backend email service |
+| Deployment | ⏳ Pending | Needs deployment to a public server |
+| Integration Tests | ⏳ Pending | Only unit tests are currently implemented |
+
+**Note:** API Documentation and Email Integration are handled by the backend team.
 
 ## Submission Checklist
 
-- [x] Source code di GitHub repository
-- [x] README dengan setup instructions
-- [x] Fitur Authentication (Login, Register, Forgot/Reset Password, Logout)
+- [x] Source code in GitHub repository
+- [x] README with setup instructions
+- [x] Authentication Features (Login, Register, Forgot/Reset Password, Logout)
 - [x] Role-Based Access Control (Super Admin, Admin, Merchant)
-- [x] CRUD Operations untuk Users dan Merchants
-- [x] Dashboard dengan role-specific data
+- [x] CRUD Operations for Users and Merchants
+- [x] Dashboard with role-specific data
 - [x] Unit tests
-- [x] Route protection dan input validation
-- [ ] API documentation (Swagger/Postman)
-- [ ] Deployment ke server publik
+- [x] Route protection and input validation
+- [ ] Deployment to a public server
 
 ## Backend Requirement
 
-**Penting:** Aplikasi frontend ini membutuhkan backend API untuk berfungsi penuh. Backend yang direkomendasikan:
+**Important:** This frontend application requires a backend API to function properly. Recommended backend:
 
-- **Laravel** (disarankan): Repository terpisah untuk backend API
-- Pastikan backend menyediakan endpoint seperti yang tercantum di bagian "Expected API Endpoints"
-- Konfigurasi `VITE_API_BASE_URL` di `.env.local` harus menunjuk ke URL backend
+- **Laravel** (recommended): Separate backend API repository
+- Ensure backend provides endpoints as listed in "Expected API Endpoints" section
+- Configure `VITE_API_BASE_URL` in `.env.local` to point to your backend URL
 
 ## Contact
 
-Untuk akses repository, hubungi: **support@ripos.asia**
+For repository access: **support@ripos.asia**
 
 ---
 
