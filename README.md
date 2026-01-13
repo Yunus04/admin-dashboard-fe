@@ -402,6 +402,85 @@ VITE_APP_NAME=Admin Dashboard
 
 ---
 
+## Features Status
+
+### ✅ Completed Features
+
+#### 1. Authentication
+| Feature | Status | Description |
+|---------|--------|-------------|
+| User Login | ✅ Complete | Login dengan email/password, token-based authentication |
+| User Registration | ✅ Complete | Form registrasi dengan validasi |
+| Forgot Password | ✅ Complete | Request reset password via email |
+| Reset Password | ✅ Complete | Reset password dengan token |
+| Logout | ✅ Complete | Logout dan clear session |
+
+#### 2. User Roles & Permissions
+| Role | Status | Description |
+|------|--------|-------------|
+| Super Admin | ✅ Complete | Full access ke semua fitur termasuk user management |
+| Admin | ✅ Complete | Manage merchants only, tidak bisa akses user management |
+| Merchant | ✅ Complete | Hanya akses dashboard dan data sendiri |
+
+#### 3. CRUD Operations
+| Feature | Status | Description |
+|---------|--------|-------------|
+| User CRUD | ✅ Complete | Create, Read, Update, Delete users (Super Admin only) |
+| Merchant CRUD | ✅ Complete | Create, Read, Update, Delete merchants |
+| Settings | ✅ Complete | Profile dan password management |
+
+#### 4. Dashboard
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Super Admin Dashboard | ✅ Complete | Menampilkan semua statistik |
+| Admin Dashboard | ✅ Complete | Menampilkan statistik merchants saja |
+| Merchant Dashboard | ✅ Complete | Menampilkan data merchant yang login |
+
+#### 5. Bonus Features
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Unit Testing | ✅ Complete | Vitest setup dengan auth, user, permission tests |
+| Route Protection | ✅ Complete | ProtectedRoute dengan role-based access |
+| Input Validation | ✅ Complete | Zod schemas untuk semua form |
+| TypeScript | ✅ Complete | Full type safety di seluruh aplikasi |
+| Responsive UI | ✅ Complete | Tailwind CSS v4, mobile-friendly |
+
+### ⏳ In Progress / Uncompleted Features
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| API Documentation | ⏳ Pending | Swagger/Postman docs belum dibuat |
+| Deployment | ⏳ Pending | Perlu di-deploy ke server publik |
+| Integration Tests | ⏳ Pending | Hanya unit tests yang ada |
+| Email Integration | ⏳ Pending | forgot/reset password butuh backend email service |
+
+## Submission Checklist
+
+- [x] Source code di GitHub repository
+- [x] README dengan setup instructions
+- [x] Fitur Authentication (Login, Register, Forgot/Reset Password, Logout)
+- [x] Role-Based Access Control (Super Admin, Admin, Merchant)
+- [x] CRUD Operations untuk Users dan Merchants
+- [x] Dashboard dengan role-specific data
+- [x] Unit tests
+- [x] Route protection dan input validation
+- [ ] API documentation (Swagger/Postman)
+- [ ] Deployment ke server publik
+
+## Backend Requirement
+
+**Penting:** Aplikasi frontend ini membutuhkan backend API untuk berfungsi penuh. Backend yang direkomendasikan:
+
+- **Laravel** (disarankan): Repository terpisah untuk backend API
+- Pastikan backend menyediakan endpoint seperti yang tercantum di bagian "Expected API Endpoints"
+- Konfigurasi `VITE_API_BASE_URL` di `.env.local` harus menunjuk ke URL backend
+
+## Contact
+
+Untuk akses repository, hubungi: **support@ripos.asia**
+
+---
+
 ## License
 
 MIT License
