@@ -409,40 +409,40 @@ VITE_APP_NAME=Admin Dashboard
 #### 1. Authentication
 | Feature | Status | Description |
 |---------|--------|-------------|
-| User Login | ✅ Complete | Login dengan email/password, token-based authentication |
-| User Registration | ✅ Complete | Form registrasi dengan validasi |
-| Forgot Password | ✅ Complete | Request reset password via email |
-| Reset Password | ✅ Complete | Reset password dengan token |
-| Logout | ✅ Complete | Logout dan clear session |
+| User Login | ✅ Complete | Login with email/password, token-based authentication |
+| User Registration | ✅ Complete | Registration form with validation |
+| Forgot Password | ✅ Complete | Request password reset via email |
+| Reset Password | ✅ Complete | Reset password with token |
+| Logout | ✅ Complete | Logout and clear session |
 
 #### 2. User Roles & Permissions
 | Role | Status | Description |
 |------|--------|-------------|
-| Super Admin | ✅ Complete | Full access ke semua fitur termasuk user management |
-| Admin | ✅ Complete | Manage merchants only, tidak bisa akses user management |
-| Merchant | ✅ Complete | Hanya akses dashboard dan data sendiri |
+| Super Admin | ✅ Complete | Full access to all features including user management |
+| Admin | ✅ Complete | Manage merchants only, cannot access user management |
+| Merchant | ✅ Complete | Only access own dashboard and data |
 
 #### 3. CRUD Operations
 | Feature | Status | Description |
 |---------|--------|-------------|
 | User CRUD | ✅ Complete | Create, Read, Update, Delete users (Super Admin only) |
 | Merchant CRUD | ✅ Complete | Create, Read, Update, Delete merchants |
-| Settings | ✅ Complete | Profile dan password management |
+| Settings | ✅ Complete | Profile and password management |
 
 #### 4. Dashboard
 | Feature | Status | Description |
 |---------|--------|-------------|
-| Super Admin Dashboard | ✅ Complete | Menampilkan semua statistik |
-| Admin Dashboard | ✅ Complete | Menampilkan statistik merchants saja |
-| Merchant Dashboard | ✅ Complete | Menampilkan data merchant yang login |
+| Super Admin Dashboard | ✅ Complete | Display all statistics |
+| Admin Dashboard | ✅ Complete | Display merchant statistics only |
+| Merchant Dashboard | ✅ Complete | Display logged-in merchant's data |
 
 #### 5. Bonus Features
 | Feature | Status | Description |
 |---------|--------|-------------|
-| Unit Testing | ✅ Complete | Vitest setup dengan auth, user, permission tests |
-| Route Protection | ✅ Complete | ProtectedRoute dengan role-based access |
-| Input Validation | ✅ Complete | Zod schemas untuk semua form |
-| TypeScript | ✅ Complete | Full type safety di seluruh aplikasi |
+| Unit Testing | ✅ Complete | Vitest setup with auth, user, permission tests |
+| Route Protection | ✅ Complete | ProtectedRoute with role-based access |
+| Input Validation | ✅ Complete | Zod schemas for all forms |
+| TypeScript | ✅ Complete | Full type safety throughout the application |
 | Responsive UI | ✅ Complete | Tailwind CSS v4, mobile-friendly |
 
 ### ⏳ In Progress / Uncompleted Features
